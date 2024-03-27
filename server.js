@@ -8,7 +8,6 @@ const PORT =  process.env.PORT || 3000;
 app.use(cors());
 
 //Route
-
 app.use('/', require('./routes/index'));
 
 app.listen(PORT, () => {
